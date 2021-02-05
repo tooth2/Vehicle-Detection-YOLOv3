@@ -21,7 +21,7 @@ YOLO, a very fast detection framework that is shipped with the OpenCV library. B
 Every bounding box predicted by YOLOv3 is associated with a confidence score. The parameter 'confThreshold' is used to remove all bounding boxes with a lower score value. Then, a non-maximum suppression is applied to the remaining bounding boxes. A non-maximum suppression is used to eliminate bounding boxes with a low confidence level as well as redundant bounding boxes enclosing the same object. The NMS procedure is controlled by the parameter ‘nmsThreshold‘.
 
 2. Prepare the Model
-`[yolov3.weights]`(https://pjreddie.com/media/files/yolov3.weights) contains the pre-trained network’s weights and has been made available by the authors of YOLO.
+[yolov3.weights](https://pjreddie.com/media/files/yolov3.weights) contains the pre-trained network’s weights and has been made available by the authors of YOLO.
 The file 'yolov3.cfg' containing the network configuration is available here and the coco.names file which contains the 80 different class names used in the COCO dataset.
 ```code
     // load neural network
@@ -57,5 +57,12 @@ The result of the forward pass and thus the output of the network is a vector of
 
 To visualize the result, green rectagle encloses idenetied bounding boxes along with label and confidance score. 
 
-#### Reference
+### Result 
+![input image](/images/img1.png)
+![detected output](/images/Object_classification.png)
+
+### Reference
 * [Blobs](http://caffe.berkeleyvision.org/tutorial/net_layer_blob.html)
+* [YOLO Weights](https://pjreddie.com/media/files/yolov3.weights)
+* [COCO Data set](http://cocodataset.org/#home)
+* [NCHW :Intel math kernel for deep neural network](https://oneapi-src.github.io/oneDNN/understanding_memory_formats.html)
