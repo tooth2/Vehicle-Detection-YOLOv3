@@ -66,3 +66,4 @@ To visualize the result, green rectagle encloses idenetied bounding boxes along 
 * [YOLO Weights](https://pjreddie.com/media/files/yolov3.weights)
 * [COCO Data set](http://cocodataset.org/#home)
 * [NCHW :Intel math kernel for deep neural network](https://oneapi-src.github.io/oneDNN/understanding_memory_formats.html)
+* [Yolov3:An Incremental Improvement](https://arxiv.org/abs/1804.02767)
