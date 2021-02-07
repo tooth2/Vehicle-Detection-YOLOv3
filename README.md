@@ -2,9 +2,9 @@
 
 Implementation of Vehicle Detection using YOLOv3. The parameters used are mainly the ones suggested by the authors. The author of YOLOv3 have made available a set of pre-trained weights that enable the YOLOv3 to recognize 80 different objects in images and videos based on [COCO Data set](http://cocodataset.org/#home). 
 
-1. C++ Implementation
-2. PyTorch Implementation 
-3. Tensorflow/Kera Implementation 
+1. [C++ Implementation](https://github.com/tooth2/YOLOv3-Object-Detection)
+2. [PyTorch Implementation](https://github.com/tooth2/YOLOv3-Pytorch)
+3. [Tensorflow/Kera Implementation]
 
 ## Implementation Approach 
 
