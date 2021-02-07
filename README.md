@@ -61,9 +61,18 @@ To visualize the result, green rectagle encloses idenetied bounding boxes along 
 ![input image](/images/img1.png)
 ![detected output](/images/Object_classification.png)
 
+YOLOv3 is fast, under cpu it took 2sec and this works well even in 30frame/s live video as well. Even though this model is useful to identify pedestrian, car, track , motorcycle on the road, however the bouding boxes have their limits: drawing boxes vehicles on a curvy road, forest or trees' or vechicles shadow. It is not easy to convery the true shape of an object. So that bouding boxes can acheive *"partial"* scene understanding. 
+
 ### Reference
 * [Blobs](http://caffe.berkeleyvision.org/tutorial/net_layer_blob.html)
 * [YOLO Weights](https://pjreddie.com/media/files/yolov3.weights)
 * [COCO Data set](http://cocodataset.org/#home)
 * [NCHW :Intel math kernel for deep neural network](https://oneapi-src.github.io/oneDNN/understanding_memory_formats.html)
 * [Yolov3:An Incremental Improvement](https://arxiv.org/abs/1804.02767)
+
+### Next Step
+- [x] YOLO tesnforflow 
+- [x] YOLOv3 in Pytorch
+- [x] YOLOv3 C++ in openCV
+- [ ] SSD(Single shot detection) 
+- [ ] Semantic Segmentation 
