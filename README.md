@@ -71,8 +71,8 @@ YOLOv3 is fast, (under cpu it took 2sec in this project) and this works well eve
 * [Yolov3:An Incremental Improvement](https://arxiv.org/abs/1804.02767)
 
 ### Next Step
-- [x] YOLO tesnforflow 
-- [x] YOLOv3 in Pytorch
-- [x] YOLOv3 C++ in openCV
-- [ ] SSD(Single shot detection) 
+- [x] [YOLO Object Detection in tesnforflow](https://github.com/tooth2/YOLOv3-Object-Detection)
+- [x] [YOLOv3 Object Detection in Pytorch](https://github.com/tooth2/YOLOv3-Pytorch)
+- [x] [YOLOv3 Object Detection C++](https://github.com/tooth2/YOLOv3-Object-Detection)
+- [x] [SSD(Single shot detection)](https://github.com/tooth2/SSD-Object-Detection)
 - [ ] Semantic Segmentation 
