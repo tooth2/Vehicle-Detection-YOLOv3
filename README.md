@@ -4,7 +4,7 @@ Implementation of Vehicle Detection using YOLOv3. The parameters used are mainly
 
 1. [C++ Implementation](https://github.com/tooth2/YOLOv3-Object-Detection)
 2. [PyTorch Implementation](https://github.com/tooth2/YOLOv3-Pytorch)
-3. [Tensorflow/Kera Implementation]
+3. [Tensorflow/Keras Implementation](https://github.com/tooth2/Vehicle_Detection)
 
 ## Implementation Approach 
 
@@ -71,7 +71,7 @@ YOLOv3 is fast, (under cpu it took 2sec in this project) and this works well eve
 * [Yolov3:An Incremental Improvement](https://arxiv.org/abs/1804.02767)
 
 ### Next Step
-- [x] [YOLO Object Detection in tesnforflow](https://github.com/tooth2/YOLOv3-Object-Detection)
+- [x] [YOLO Object Detection in Tensorflow](https://github.com/tooth2/Vehicle_Detection)
 - [x] [YOLOv3 Object Detection in Pytorch](https://github.com/tooth2/YOLOv3-Pytorch)
 - [x] [YOLOv3 Object Detection C++](https://github.com/tooth2/YOLOv3-Object-Detection)
 - [x] [SSD(Single shot detection)](https://github.com/tooth2/SSD-Object-Detection)
